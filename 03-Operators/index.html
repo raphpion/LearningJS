@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Started With JavaScript</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style>
+        body { padding: 30px; }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Start javascript ============================================================== -->
+
+    <script>
+        let a = 10, 
+            b = 3, 
+            c = 15;
+        let d = '5', 
+            e = 'my name', 
+            f = 'is raph';
+        
+        console.groupCollapsed('Addition');
+            console.log(a + b); // 13
+            console.log(a - b); // 7
+            console.log(a + c); // 25
+            console.log(e + ' ' + f);
+            console.log(a + d); // '105'
+            console.log(e + ' is batman');
+        console.groupEnd();
+
+        console.groupCollapsed('Multiplication');
+            console.log(a * 3); // 30
+            console.log(a * b); // 30
+            console.log(b * c); // 45
+        console.groupEnd();
+
+        console.groupCollapsed('Incrementation');
+            console.log(a + 1); // 11
+            console.log(++a); // 11
+            console.log(c += a); // 26
+        console.groupEnd();
+
+    </script>
+
+</body>
+</html>
